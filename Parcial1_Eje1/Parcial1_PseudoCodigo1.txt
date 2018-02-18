@@ -1,0 +1,14 @@
+1. Algoritmo "Parcial 1 Suma"
+2. Num1, Num2, Num3, Suma (Float)
+3. Imprima "Ingrese Primer Numero"
+4. Lea Num1
+5. Imprima "Ingrese Segundo Numero"
+6. Lea Num2
+7. Imprima "Ingrese Tercer Numero"
+8. Lea Num3
+9. Si Num1 + Num2 == Num3
+10.		Imprima "La suma de los dos primeros numeros es igual al tercero"
+11. Si_No
+12.		Imprima "La suma de los dos primeros numeros NO es igual al tercero"
+13. Fin_Si
+14. Fin Algortimo
