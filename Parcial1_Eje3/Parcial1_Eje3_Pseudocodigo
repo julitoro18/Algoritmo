@@ -1,0 +1,11 @@
+1. Algoritmo "Importe Bruto";
+2. ImpBruto, ImpNeto: Float;
+3. Imprima "Entre el importe bruto: ";
+4. lea ImpBruto;
+5. Si ImpBruto > 15,000 entonces
+6.	ImpNeto = ImpBruto * 1.16;
+7. Si_No
+8. 	ImpNeto = ImpBruto * 1.10;
+9. Fin Si
+10. Imprima "El Importe neto es: ", ImpNeto;
+11. Fin Algoritmo;
