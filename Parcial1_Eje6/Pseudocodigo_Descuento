@@ -1,0 +1,13 @@
+Algoritmo "Descuento"
+float: monto, descuento, nuevoMonto
+imprima "Digite el monto"
+lea monto
+si (monto > 10,000) entonces
+	descuento = monto * 0.20
+si_no
+	descuento = monto * 0.10
+fin_si
+nuevoMonto = monto - descuento
+Imprima "El descuento es de: ", descuento
+Imprima "El nuevo monto es de: ", nuevoMonto
+fin_algoritmo
