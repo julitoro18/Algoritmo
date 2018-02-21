@@ -1,0 +1,15 @@
+Algoritmo "Sueldo"
+float: sueldo, descuento, sueldoNeto
+Imprima "Entre el sueldo del trabajador"
+lea sueldo
+si (sueldo <= 1000) entonces
+	descuento = sueldo * 0.10
+si_no_si (sueldo > 1000 && sueldo <= 2000) entonces
+	descuento = sueldo * 0.05
+si_no
+	descuento = sueldo * 0.03
+fin_si
+sueldoNeto = sueldo - descuento
+imprima "El descuento es de: ", descuento
+imprima "El sueldo neto es de: ", sueldoNeto
+fin algoritmo
