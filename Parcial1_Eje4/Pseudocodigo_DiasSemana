@@ -1,0 +1,22 @@
+Algoritmo "Dias De La Semana"
+int: dia = 0
+Imprima "Imprima "Este programa asigna el dia de la semana segun el numero elegido""
+Imprima "Digite un numero del 1 al 7: "
+lea dia
+dn_caso_de (dia)
+ 		Caso 1
+ 			Imprima "Lunes"
+ 		Caso 2
+ 			Imprima "Martes"
+ 		Caso 3
+ 			Imprima "Miercoles"
+ 		Caso 4
+ 			Imprima "Jueves"
+  		Caso 5
+ 			Imprima "Viernes"
+ 		Caso 6
+ 			Imprima "Sabado"
+  		Caso 7
+ 			Imprima "Domingo"
+ fin_caso
+ fin algoritmo
