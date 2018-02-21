@@ -1,0 +1,10 @@
+algoritmo "Planta Termoelectrica"
+float: consumo
+imprima "Entre el consumo de la planata: "
+lea consumo
+si (consumo > 8000 && consumo <= 10000) entonces
+	imprima "CONSUMO MEDIO"
+si (consumo > 10000) entonces
+	imprima "CONSUMO ALTO DE ENERGIA"
+fin_si
+fin algoritmo
