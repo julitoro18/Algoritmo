@@ -1,0 +1,11 @@
+Algoritmo "Hallar Area de Circulo"
+double: radio, area, pi = 3.14286
+imprima "Dijite el radio del circulo"
+lea radio
+area = pi * radio * radio
+si (area > 5000) entonces
+	imprima "DATOS ERRONEOS"
+Si_No
+	imprima "El area del circulo es: ", area; 
+fin_si
+fin algoritmo
