@@ -1,0 +1,17 @@
+Algoritmo "Horas Extra"
+float: tarifa, horas, horasExtra, salario, tarifaHorasExtra
+imprima "Entre el numero de horas trabajadas: "
+lea horas
+imprima "Entre la tarifa por hora: "
+lea tarifa
+tarifaHorasExtra = tarfia * 1.5
+Si (horas > 40) entonces
+	horasExtra = horas - 40
+	salario = (tarifa * horas) + (tarifaHorasExtra * horasExtra)
+si_no
+	salario = tarifa * horas
+fin si
+imprima "Horas Extra Trabajadas: ", horasExtra
+Imprima "Tarfia por Hora Extra: ", tarifaHoraExtra
+Imprima "Salario Total: ", salario
+fin algoritmo
