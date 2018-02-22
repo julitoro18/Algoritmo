@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream> // Processor directive to include io librery
 
-using namespace std;
+using namespace std; //Tell compiler to invoke standard function names
 
 int main()
 {
@@ -25,8 +25,8 @@ int main()
 
     else
     {
-        cout << "Los numeros NO han sido introducidos de forma creciente" << endl << endl; //output of the condition above is not true
+        cout << "Los numeros NO han sido introducidos de forma creciente" << endl << endl; //output when the condition above is not true
     }
 
-    return 0;
+    return 0; //Return to OS
 }

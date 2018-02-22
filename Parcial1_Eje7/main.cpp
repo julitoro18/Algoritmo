@@ -2,10 +2,10 @@
 
 using namespace std; //Invoke standard names for functions
 
-int main()
+int main() //Start program with standard main function
 {
     cout << endl << endl;
-    cout << "Este programa calcula el descuento y sueldo neto que recibe un trabajador dado su sueldo." << endl << endl; //Program heading
+    cout << "Este programa calcula el descuento y sueldo neto que recibe un trabajador dado su sueldo." << endl << endl; //Program description
 
     float sueldo = 0, descuento = 0, sueldoNeto = 0; //Declare and store variables on a floating point
 
@@ -32,5 +32,5 @@ int main()
     cout << "El descuento es de: " << descuento << endl; //Show discount output
     cout << "El sueldo Neto es de: " << sueldoNeto << endl << endl; //Show net salary
 
-    return 0;
+    return 0; //Return value to OS
 }

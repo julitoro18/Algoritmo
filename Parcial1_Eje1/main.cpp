@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream> //Processor directive to include io library
 
-using namespace std;
+using namespace std; //Tell compiler to include standard function names
 
-int main()
+int main() //Start program with stadard main function
 {
     cout << "Parcial 1 - Algoritmo Suma" << endl << endl;
     //Realizar un algortimo que pida tres números e indicar si el tercero es igual a la suma del primero y el segundo.
@@ -20,8 +20,8 @@ int main()
     }
     else
     {
-        cout << "La suma de los dos primeros numeros NO es igual al tercero. " << endl << endl;// Outpur si la condicion no se cumple
+        cout << "La suma de los dos primeros numeros NO es igual al tercero. " << endl << endl;// Output si la condicion no se cumple
     }
 
-    return 0;
+    return 0; //Return value to OS
 }

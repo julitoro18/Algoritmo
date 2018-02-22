@@ -1,15 +1,15 @@
-#include <iostream>
+#include <iostream>// Processor directive to include io librery
 
-using namespace std;
+using namespace std; //Tell compiler to invoke standard function names
 
-int main()
+int main() //Start program wiht the standard function
 {
     cout << endl << endl;
     cout << "Este pograma pide 4 números y los muestre en pantalla de menor a mayor." << endl; //Program description
 
     int num1 = 0, num2 = 0, num3 = 0, num4 = 0, temp = 0; //Declare variables and store as integres
 
-    //User imput & assign vriables
+    //User imput & assign to vriables
     cout << "Entre el primer numero: ";
     cin >> num1;
     cout << "Entre el segundo numero: ";
@@ -63,5 +63,5 @@ int main()
 
     cout << "Los numeros en orden ascendente son: " << num1 << " " << num2 << " " << num3 << " " << num4 << endl; //Display output
 
-    return 0;
+    return 0; //return value to the OS
 }

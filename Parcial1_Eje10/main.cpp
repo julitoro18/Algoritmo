@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream>// Processor directive to include IO library
 
-using namespace std;
+using namespace std; // Tell compilet to invoke standard function names
 
-int main()
+int main() //Start program with standard main function
 {
     cout << endl << endl;
     cout << "Este programa expresa en horas, minutos y segundos un tiempo dado en segundos" << endl;//Program description
@@ -20,5 +20,5 @@ int main()
     cout << endl << endl;
     cout << horas << ":" << minutos << ":" << segundos << endl << endl; //Display output
 
-    return 0;
+    return 0;//Return value to OS
 }

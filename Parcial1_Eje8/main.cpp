@@ -1,11 +1,11 @@
-#include <iostream>
+#include <iostream> //Processo directive to include io library
 
-using namespace std;
+using namespace std;// Tell compilet ot invoke standard function names
 
-int main()
+int main() //Start program with standard main function
 {
     cout << endl << endl;
-    cout << "Este programa calcula el salario de un trabajador dadas las horas trabajadas y la tarifa por hora" << endl << endl;
+    cout << "Este programa calcula el salario de un trabajador dadas las horas trabajadas y la tarifa por hora" << endl << endl; //Program description
 
     //Assign variables to floating points
     float horas = 0, tarifa = 0, horasExtra = 0, tarifaHorasExtra = 0, salario = 0;
@@ -38,5 +38,5 @@ int main()
     cout << "Horas Extra Trabajadas: " << horasExtra << endl; //Display overtime hours
     cout << "Salario Total: " << salario << endl; //Display total salary
 
-    return 0;
+    return 0; //Retrun value to OS
 }

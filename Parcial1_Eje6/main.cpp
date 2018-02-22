@@ -7,7 +7,7 @@ int main()
 {
     //Program explainer
     cout << endl << endl;
-    cout << "Dado un monto calcular el descuento considerando que: por encima de 10000 el descuento es el 20% y por debajo de 10000 el descuento es el 10%." << endl;
+    cout << "Dado un monto calcular el descuento considerando que: por encima de 10000 el descuento es el 20% y por debajo de 10000 el descuento es el 10%." << endl; //Program description
 
     //Declare variables to store a floating point
     float descuento = 0, monto = 0, nuevoMonto = 0;
