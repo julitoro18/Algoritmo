@@ -1,0 +1,37 @@
+Algoritmo "Numeros Asencdentes"
+int num1, num2, num3, num4, temp
+imprima "Entre el primer numero"
+lea num1
+imprima "Entre el segundo numero"
+lea num2
+imprima "Entre el tercer numero"
+lea num3
+imprima "Entre el cuarto numero"
+lea num4
+si (num1 > num2) entonces
+	temp = num1
+	num1 = num2
+	num2 = temp
+si (num1 > num3) entonces
+	temp = num1
+	num1 = num3
+	num3 = temp
+si (num1 > num4) entonces
+	temp = num1
+	num1 = num4
+	num4 = temp
+si (num2 > num3) entonces
+	temp = num2
+	num2 = num3
+	num3 = temp
+si (num2 > num4) entonces
+	temp = num2
+	num2 = num4
+	num4 = temp
+si (num3 > num4) entonces
+	temp = num3
+	num3 = num4
+	num4 = temp
+fin_si
+imprima "Los numeros en orden asendente son: " num1, num2, num3, num4
+fin algoritmo
