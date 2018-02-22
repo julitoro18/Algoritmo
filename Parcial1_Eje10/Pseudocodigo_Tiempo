@@ -1,0 +1,10 @@
+algoritmo "tiempo"
+int horas, segundos, minutos
+imprima "Ingrese los segundos"
+lea segundos
+horas = segundos / 3600
+segundos = segundos % 3600
+minutos = segundos / 60
+segundos = segundos % 60
+imprima horas, ":" minutos, ":" segundos;
+fin algortimo
