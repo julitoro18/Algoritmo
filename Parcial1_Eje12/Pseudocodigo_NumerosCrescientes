@@ -1,0 +1,14 @@
+Algoritmo "Numeros Crescientes"
+float num1, num2, num3
+imprima "Ingrese el primer numero"
+lea num1
+imprima "Ingrese el segundo numero"
+lea num2
+imprima "ingrese el tercer numero"
+lea num3
+si (num1 < num2 && num1 <) num3 && num2 < num3) entonces
+	imprima "Los numeros han introducido en orden creciente"
+si_no
+	imprima "Los numeros NO han introducido en orden creciente"
+fin_si
+fin Algoritmo
